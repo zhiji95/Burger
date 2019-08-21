@@ -1,7 +1,8 @@
 import axios from 'axios'
+const CONFIG = require('./secret.json')
 
 const instance = axios.create({
-  baseURL: 'https://burger-7d33a.firebaseio.com/'
+  baseURL: CONFIG.fireBaseUrl
 })
 
 export default instance
