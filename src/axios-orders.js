@@ -1,18 +1,7 @@
-import React, { Component } from 'react';
+import axios from 'axios'
 
-import Layout from './hoc/Layout/Layout';
-import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
+const instance = axios.create({
+  baseURL: 'fake_url'
+})
 
-class App extends Component {
-  render () {
-    return (
-      <div>
-        <Layout>
-          <BurgerBuilder />
-        </Layout>
-      </div>
-    );
-  }
-}
-
-export default App;
+export default instance
