@@ -7,6 +7,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 sudo npm install // install npm packages
 npm start // start react project 
 npm install --save axios // send http request
+npm install --save react-router-dom // set up routing
 ```
 
 ## Table of Contents
